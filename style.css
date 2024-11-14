@@ -1,0 +1,406 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.bg{
+    height: 100vh;
+    width: 100%;
+}
+.bg .navbar{
+    width: 100%;
+    height: 115px;
+    padding-inline: 300px;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.bg .navbar .logo{
+    height: inherit;
+    width: 240px;
+}
+.bg .navbar .logo h2{
+    word-spacing: 6px;
+    letter-spacing: 3px;
+    padding-top: 40px;
+    font-size: 21px;
+    text-align: center;
+}
+.bg .navbar .logo p{
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    color: rgb(58, 57, 57);
+    padding-top: 7px;
+    font-weight: 300;
+}
+.bg .navbar .section{
+    height: inherit;
+    width: 425px;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bg .navbar .section a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    transition: 0.3s;
+    letter-spacing: 0.5px;
+}
+.bg .navbar .section a:hover{
+    color: #317F81;
+    transition: 0.3s;
+}
+#color{
+    color: #317F81;
+}
+.bg .navbar .join{
+    height: inherit;
+    width: 90px;
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+}
+.bg .navbar .join .bguser{
+    height: 25px;
+    width: 25px;
+    background-color: #317F81;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg .navbar .join i{
+    color: white;
+    font-size: 18px;
+    border-radius: 50%;
+}
+.bg .navbar .join span{
+    color: #317F81;
+    padding-left: 13px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.bg .navbar .join span:hover{
+    color: #4caaad;
+}
+/* herosection */
+.bg .herosection{
+    height: 120vh;
+    width: 100%;
+    background-image: url(./Assets/hero\ image.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+.bg .herosection h3{
+    padding-top: 180px;
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+.bg .herosection h1{
+    text-align: center;
+    font-size: 150px;
+    letter-spacing: 15px;
+}
+.bg .herosection h4{
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+}
+.bg .herosection button{
+    height: 40px;
+    width: 8%;
+    background-color: black;
+    color: rgb(241, 241, 241);
+    border: none;
+    margin-left: 46%;
+    margin-top: 30px;
+    transition: 0.4s;
+    border: 2px solid black;
+    font-size: 14px;
+}
+.bg .herosection button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+/* herosection */
+
+/* mainsection 1 */
+.bg .main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+/* left */
+.bg .main .about{
+    height: inherit;
+    width: 50%;
+}
+.bg .main .about .line{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    margin-top: 70px;
+    margin-left: 32%;
+}
+.bg .main .about h1{
+    margin-left: 32%;
+    margin-top: 30px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+.bg .main .about p{
+    margin-left: 32%;
+    margin-top: 50px;
+    line-height: 28px;
+    color: rgb(43, 41, 41);
+}
+#space{
+    margin-top: 25px;
+}
+.bg .main .about .btngroup{
+    height: 40px;
+    width: 316px;
+    margin-left: 32%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.bg .main .about .btngroup button{
+    height: inherit;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition: 0.4s;
+}
+.bg .main .about .btngroup button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+#sp{
+    width: 170px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: 0.4s;
+}
+#sp:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+/* right */
+.bg .main .image{
+    height: inherit;
+    width: 50%;
+    background-color: yellow;
+}
+.bg .main .image img{
+    height: 100%;
+    width: 100%;
+}
+/* mainsection 1 */
+
+/* mainsection 2 */
+.bg .main2{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    background-image: url(./Assets/main\ bg\ img.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    z-index: 0;
+}
+#line{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    margin-left: 16%;
+    position: absolute;
+    top: 7%;
+}
+.bg .main2 h1{
+    padding-top: 120px;
+    margin-left: 15.8%;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.bg .main2 .box{
+    height: 400px;
+    width: 68%;
+    margin-left: 16%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.bg .main2 .box .box1{
+    height: inherit;
+    width: 31%;
+    border: 7px solid black;
+}
+.bg .main2 .box .box1 H2{
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+.bg .main2 .box .box1 p{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(96, 93, 93);
+}
+.bg .main2 .box .box1 .line3{
+    height: 2px;
+    width: 250px;
+    background-color: black;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.bg .main2 .box .box1 p{
+    color: rgb(96, 93, 93);
+    text-align: center;
+}
+.bg .main2 .box .box1 button{
+    height: 40px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 35%;
+    margin-top: 100px;
+    cursor: pointer;
+}
+#size{
+    position: relative;
+    bottom: 10%;
+    cursor: pointer;
+}
+#size2{
+    position: relative;
+    bottom: 17%;
+    cursor: pointer;
+}
+.bg .main2 button{
+    height: 40px;
+    width: 190px;
+    margin-top: 100px;
+    margin-left: 44%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.4s;
+}
+.bg .main2 button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+/* mainsection 2 */
+
+/* footer */
+.bg .footer{
+    width: 100%;
+    height: 90vh;
+    background-color: #57BBBF;
+    display: flex;
+}
+.bg .footer .line4{
+    height: 2px;
+    width: 50px;
+    background-color: black;
+    margin-left: 16%;
+    position: relative;
+    top: 10%;
+}
+.bg .footer .fottleft{
+    height: 410px;
+    width: 270px;
+    margin-top: 80px;
+    margin-left: 16%;
+    position: relative;
+    right: 19.4%;
+}
+.bg .footer .fottleft H3{
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+.bg .footer .fottleft p{
+    color: rgb(60, 59, 59);
+    padding-top: 45px;
+    font-weight: 400;
+}
+#point{
+    cursor: pointer;
+}
+.bg .footer .fottleft .icon{
+    height: 25px;
+    width: 150px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.bg .footer .fottleft .icon a{
+    text-decoration: none;
+    color: black;
+}
+.bg .footer .fottleft .icon i{
+    font-size: 22px;
+    cursor: pointer;
+}
+.bg .footer .fottleft span{
+    color: rgb(60, 59, 59);
+    font-size: 15px;
+    word-spacing: 3px;
+}
+.bg .footer .fottform{
+    height: 410px;
+    width: 450px;
+    margin-top: 85px;
+}
+.bg .footer .fottform input{
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 14px;
+    padding-left: 15px;
+    outline: none;
+}
+.bg .footer .fottform input:hover{
+    border: 3px solid black;
+}
+#height{
+    height: 130px;
+}
+.bg .footer .btn2 button{
+    margin-top: 510px;
+    position: relative;
+    right: 100%;
+    height: 35px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bg .footer .btn2 button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+/* footer */
